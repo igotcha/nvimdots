@@ -9,7 +9,7 @@ local function load_options()
 		autoindent = true,
 		autoread = true,
 		autowrite = true,
-		backspace = "indent,eol,start",
+		-- backspace = "indent,eol,start",
 		backup = false,
 		backupskip = "/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*,*/shm/*,/private/var/*,.vault.vim",
 		breakat = [[\ \	;:,!?]],
@@ -92,7 +92,7 @@ local function load_options()
 		viewoptions = "folds,cursor,curdir,slash,unix",
 		virtualedit = "block",
 		visualbell = true,
-		whichwrap = "h,l,<,>,[,],~",
+		-- whichwrap = "h,l,<,>,[,],~",
 		wildignore = ".git,.hg,.svn,*.pyc,*.o,*.out,*.jpg,*.jpeg,*.png,*.gif,*.zip,**/tmp/**,*.DS_Store,**/node_modules/**,**/bower_modules/**",
 		wildignorecase = true,
 		-- Do NOT adjust the following option (winblend) if you're using transparent background

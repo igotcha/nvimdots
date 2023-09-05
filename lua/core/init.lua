@@ -162,6 +162,7 @@ local load_core = function()
 	local background = require("core.settings").background
 	vim.api.nvim_command("set background=" .. background)
 	vim.api.nvim_command("colorscheme " .. colorscheme)
+	vim.opt.mouse = ""
 end
 
 load_core()
